@@ -1,0 +1,31 @@
+<template>
+    <!-- LWC sample component <my-greeting> -->
+    <template if:true={kheloBaccho}> 
+        <div class="centerPage">
+            <div class="center">
+                <img src="./resources/tmkocImage1.png" />
+            </div>
+            <div class="center greeting">
+                <!-- <my-greeting speed="slow"></my-greeting> -->
+                <my-greeting speed="fast"></my-greeting>
+                <!-- <my-greeting speed="fast"></my-greeting> -->
+            </div>
+            <!-- Page code -->
+            <div>
+                <lightning-button  variant="brand" label="खेलो बच्चों" title="Primary action" onclick={kheloBacchoClick} class="slds-align_absolute-center"></lightning-button>
+            </div>
+        </div>
+    </template>
+    <template if:true={familyDiv}>  
+        <div class="midPage">
+            <lightning-layout>
+                <lightning-layout-item padding="around-small">
+                    <my-tmkoc></my-tmkoc>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small">
+                    <lightning-button  variant="brand" label="Back" title="Primary action" onclick={back} class="slds-align_absolute-center"></lightning-button>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </template>
+</template>

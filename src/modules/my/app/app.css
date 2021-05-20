@@ -1,0 +1,48 @@
+.center {
+    text-align: center;
+}
+.link {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #ff6000;
+    color: white;
+    margin-left: 33%;
+    margin-right: 33%;
+    display: inline-block;
+    margin-top: 1em;
+}
+.centerPage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}​
+.info {
+    color: black;
+    margin: auto;
+    padding: 15px 10px;
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+}
+.code {
+    font-family: monospace;
+}
+.container {
+    margin-top: 30px;
+}
+
+img {
+    max-width: 300px;
+}
+
+.greeting {
+    height: 75px;
+}
+.midPage{
+    position: absolute;
+    top: 50%;    
+}
